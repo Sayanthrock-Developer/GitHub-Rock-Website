@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Rock — GitHub, made mobile</title>
+  <meta name="description" content="Native Android developer control centre for GitHub. Browse repos, issues, PRs, Actions, build APKs, and download releases — all in one Kotlin + Compose app.">
+  <meta name="theme-color" content="#090b10">
+  <meta property="og:title" content="GitHub Rock — GitHub, made mobile">
+  <meta property="og:description" content="Secure native Android workspace for GitHub with OAuth Device Flow, builds, downloads, and APK inspection.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sayanthrock-developer.github.io/GitHub-Rock/">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="shell">
+      <a class="brand" href="./">🎸 GitHub Rock</a>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#platforms">Platforms</a>
+        <a href="#security">Security</a>
+        <a href="#status">Status</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="https://github.com/Sayanthrock-Developer/GitHub-Rock" target="_blank" rel="noopener">Source</a>
+        <a class="btn btn-primary" href="https://github.com/Sayanthrock-Developer/GitHub-Rock/releases">Download</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> First functional alpha · Open source</p>
+        <h1>GitHub, made <em>mobile.</em></h1>
+        <p class="lead">Native Android developer control centre. Sign in, browse repos, track issues &amp; PRs, monitor Actions, generate build workflows, download artifacts, and inspect APKs — in one clean Compose app.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://github.com/Sayanthrock-Developer/GitHub-Rock/releases">Get the app</a>
+          <a class="btn btn-ghost" href="https://github.com/Sayanthrock-Developer/GitHub-Rock" target="_blank" rel="noopener">View source</a>
+        </div>
+        <div class="trust">
+          <span>Android 10+</span>
+          <span>OAuth Device Flow</span>
+          <span>Encrypted tokens</span>
+          <span>Apache-2.0</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="shell section">
+      <h2>What you can do</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Everyday use</h3>
+          <ul>
+            <li>Sign in with GitHub (Device Flow)</li>
+            <li>Browse &amp; search repositories</li>
+            <li>View issues, PRs, and Actions</li>
+            <li>Download release assets</li>
+            <li>Inspect APKs (permissions, signing, hash)</li>
+            <li>Light / dark / true black themes</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Android developers</h3>
+          <ul>
+            <li>Auto-detect Android projects</li>
+            <li>Generate safe GitHub Actions workflows</li>
+            <li>Open PRs with the workflow</li>
+            <li>Trigger builds &amp; watch progress</li>
+            <li>Download built APKs into the app</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Extras</h3>
+          <ul>
+            <li>Guest mode (public repos)</li>
+            <li>Isolated Demo mode</li>
+            <li>Quick links to 45 official GitHub pages</li>
+            <li>Notifications, Codespaces, Copilot, Settings…</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="platforms" class="shell section">
+      <h2>Platforms</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Platform</th><th>What you get</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Android</strong></td><td>Full native app (APK)</td></tr>
+            <tr><td>macOS / Windows / Linux</td><td>Companion (releases + docs)</td></tr>
+            <tr><td>iOS / iPadOS</td><td>Companion (when signed)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Desktop and iOS are companions — they do not include the full Android feature set.</p>
+    </section>
+
+    <section id="security" class="shell section">
+      <h2>Security</h2>
+      <ul class="checklist">
+        <li>Only the public OAuth Client ID ships in the app</li>
+        <li>Tokens stored encrypted with Android Keystore</li>
+        <li>No passwords ever requested</li>
+        <li>Release APKs verified against pinned signing certificate</li>
+        <li>Demo data fully isolated from real accounts</li>
+      </ul>
+    </section>
+
+    <section id="status" class="shell section">
+      <h2>Status</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3>Working now</h3>
+          <ul>
+            <li>Login (Device Flow + Guest + Demo)</li>
+            <li>Repository browsing &amp; search</li>
+            <li>Issues, Pull Requests, Actions</li>
+            <li>Android build workflow generation &amp; monitoring</li>
+            <li>Background downloads with progress</li>
+            <li>APK inspection</li>
+            <li>Theme system</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Coming later</h3>
+          <ul>
+            <li>Richer code editor / language support</li>
+            <li>Better PR diff view</li>
+            <li>Biometric lock</li>
+            <li>More accessibility improvements</li>
+            <li>GraphQL + better pagination</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="shell section cta">
+      <h2>Get started</h2>
+      <p>Build from source or grab a release.</p>
+      <pre><code># Generate wrapper (once)
+gradle wrapper --gradle-version 8.13
+
+# Debug APK
+./gradlew assembleDebug</code></pre>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://github.com/Sayanthrock-Developer/GitHub-Rock/releases">Releases</a>
+        <a class="btn btn-ghost" href="https://github.com/Sayanthrock-Developer/GitHub-Rock" target="_blank" rel="noopener">Repository</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <p>© 2026 Sayanth Rock · Apache License 2.0</p>
+    <p><a href="https://github.com/Sayanthrock-Developer/GitHub-Rock">GitHub-Rock</a> · <a href="https://github.com/Sayanthrock-Developer">Sayanthrock-Developer</a></p>
+  </footer>
+</body>
+</html>
