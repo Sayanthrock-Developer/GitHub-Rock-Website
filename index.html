@@ -3,159 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GitHub Rock — GitHub, made mobile</title>
-  <meta name="description" content="Native Android developer control centre for GitHub. Browse repos, issues, PRs, Actions, build APKs, and download releases — all in one Kotlin + Compose app.">
-  <meta name="theme-color" content="#090b10">
-  <meta property="og:title" content="GitHub Rock — GitHub, made mobile">
-  <meta property="og:description" content="Secure native Android workspace for GitHub with OAuth Device Flow, builds, downloads, and APK inspection.">
+  <title>Sayanth Rock — Build with purpose</title>
+  <meta name="description" content="Sayanth Rock builds thoughtful open-source products, developer tools, Android experiences, and digital projects with purpose.">
+  <meta name="theme-color" content="#08090c">
+  <meta property="og:title" content="Sayanth Rock — Build with purpose">
+  <meta property="og:description" content="Open-source products, developer tools, Android experiences, and digital projects by Sayanth Rock.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://sayanthrock-developer.github.io/GitHub-Rock/">
+  <meta property="og:url" content="https://sayanthrock-developer.github.io/GitHub-Rock-Website/">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header class="header">
-    <div class="shell">
-      <a class="brand" href="./">🎸 GitHub Rock</a>
-      <nav>
-        <a href="#features">Features</a>
-        <a href="#platforms">Platforms</a>
-        <a href="#security">Security</a>
-        <a href="#status">Status</a>
+    <div class="shell header__inner">
+      <a class="brand" href="./" aria-label="Sayanth Rock home"><span class="brand__mark">R</span><span>Sayanth Rock</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#values">Values</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
       </nav>
-      <div class="nav-actions">
-        <a class="btn btn-ghost" href="https://github.com/Sayanthrock-Developer/GitHub-Rock" target="_blank" rel="noopener">Source</a>
-        <a class="btn btn-primary" href="https://github.com/Sayanthrock-Developer/GitHub-Rock/releases">Download</a>
-      </div>
+      <a class="btn btn--small btn--outline" href="https://github.com/Sayanthrock-Developer" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
   </header>
 
   <main>
     <section class="hero shell">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="dot"></span> First functional alpha · Open source</p>
-        <h1>GitHub, made <em>mobile.</em></h1>
-        <p class="lead">Native Android developer control centre. Sign in, browse repos, track issues &amp; PRs, monitor Actions, generate build workflows, download artifacts, and inspect APKs — in one clean Compose app.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://github.com/Sayanthrock-Developer/GitHub-Rock/releases">Get the app</a>
-          <a class="btn btn-ghost" href="https://github.com/Sayanthrock-Developer/GitHub-Rock" target="_blank" rel="noopener">View source</a>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__content">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="eyebrow__dot"></span> Independent creator · Open source</p>
+          <h1>Build things that feel <em>good to use.</em></h1>
+          <p class="hero__lead">Sayanth Rock creates focused digital products, developer tools, and open-source experiences that make technology simpler, more useful, and more human.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects">Explore projects <span>→</span></a>
+            <a class="btn btn--outline" href="https://github.com/Sayanthrock-Developer" target="_blank" rel="noopener">View GitHub <span>↗</span></a>
+          </div>
+          <div class="hero__trust" aria-label="Highlights">
+            <span>Open source</span><span>Android</span><span>Web</span><span>Developer tools</span>
+          </div>
         </div>
-        <div class="trust">
-          <span>Android 10+</span>
-          <span>OAuth Device Flow</span>
-          <span>Encrypted tokens</span>
-          <span>Apache-2.0</span>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="orb orb--one"></div>
+          <div class="orb orb--two"></div>
+          <div class="hero-card hero-card--main">
+            <div class="hero-card__top"><span class="status-dot"></span><span>SA YANTH ROCK</span><span class="hero-card__year">2026</span></div>
+            <div class="hero-card__title">Ideas →<br><strong>real products.</strong></div>
+            <div class="hero-card__line"></div>
+            <div class="hero-card__meta"><span>Design</span><span>Build</span><span>Ship</span></div>
+          </div>
+          <div class="floating-chip chip--one">✦ Thoughtful by design</div>
+          <div class="floating-chip chip--two">⌁ Open by default</div>
         </div>
       </div>
     </section>
 
-    <section id="features" class="shell section">
-      <h2>What you can do</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Everyday use</h3>
-          <ul>
-            <li>Sign in with GitHub (Device Flow)</li>
-            <li>Browse &amp; search repositories</li>
-            <li>View issues, PRs, and Actions</li>
-            <li>Download release assets</li>
-            <li>Inspect APKs (permissions, signing, hash)</li>
-            <li>Light / dark / true black themes</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Android developers</h3>
-          <ul>
-            <li>Auto-detect Android projects</li>
-            <li>Generate safe GitHub Actions workflows</li>
-            <li>Open PRs with the workflow</li>
-            <li>Trigger builds &amp; watch progress</li>
-            <li>Download built APKs into the app</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Extras</h3>
-          <ul>
-            <li>Guest mode (public repos)</li>
-            <li>Isolated Demo mode</li>
-            <li>Quick links to 45 official GitHub pages</li>
-            <li>Notifications, Codespaces, Copilot, Settings…</li>
-          </ul>
-        </article>
+    <section id="work" class="section shell intro">
+      <div class="section-label">01 — What I make</div>
+      <div>
+        <h2>Useful software, with a point of view.</h2>
+        <p>From Android apps and GitHub tooling to polished web experiences, every project starts with a simple question: can this be made clearer, faster, and more enjoyable?</p>
       </div>
     </section>
 
-    <section id="platforms" class="shell section">
-      <h2>Platforms</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Platform</th><th>What you get</th></tr></thead>
-          <tbody>
-            <tr><td><strong>Android</strong></td><td>Full native app (APK)</td></tr>
-            <tr><td>macOS / Windows / Linux</td><td>Companion (releases + docs)</td></tr>
-            <tr><td>iOS / iPadOS</td><td>Companion (when signed)</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="note">Desktop and iOS are companions — they do not include the full Android feature set.</p>
-    </section>
-
-    <section id="security" class="shell section">
-      <h2>Security</h2>
-      <ul class="checklist">
-        <li>Only the public OAuth Client ID ships in the app</li>
-        <li>Tokens stored encrypted with Android Keystore</li>
-        <li>No passwords ever requested</li>
-        <li>Release APKs verified against pinned signing certificate</li>
-        <li>Demo data fully isolated from real accounts</li>
-      </ul>
-    </section>
-
-    <section id="status" class="shell section">
-      <h2>Status</h2>
-      <div class="grid two">
-        <article class="card">
-          <h3>Working now</h3>
-          <ul>
-            <li>Login (Device Flow + Guest + Demo)</li>
-            <li>Repository browsing &amp; search</li>
-            <li>Issues, Pull Requests, Actions</li>
-            <li>Android build workflow generation &amp; monitoring</li>
-            <li>Background downloads with progress</li>
-            <li>APK inspection</li>
-            <li>Theme system</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Coming later</h3>
-          <ul>
-            <li>Richer code editor / language support</li>
-            <li>Better PR diff view</li>
-            <li>Biometric lock</li>
-            <li>More accessibility improvements</li>
-            <li>GraphQL + better pagination</li>
-          </ul>
-        </article>
+    <section id="values" class="section shell values">
+      <div class="section-label">02 — Principles</div>
+      <div class="value-grid">
+        <article class="value-card"><span>01</span><h3>Useful first</h3><p>Build for real problems. Every screen, interaction, and feature should earn its place.</p></article>
+        <article class="value-card"><span>02</span><h3>Open by default</h3><p>Open-source work should be understandable, inspectable, and easy for others to build on.</p></article>
+        <article class="value-card"><span>03</span><h3>Details matter</h3><p>Good typography, motion, accessibility, performance, and small interactions make products feel complete.</p></article>
       </div>
     </section>
 
-    <section class="shell section cta">
-      <h2>Get started</h2>
-      <p>Build from source or grab a release.</p>
-      <pre><code># Generate wrapper (once)
-gradle wrapper --gradle-version 8.13
-
-# Debug APK
-./gradlew assembleDebug</code></pre>
-      <div class="actions">
-        <a class="btn btn-primary" href="https://github.com/Sayanthrock-Developer/GitHub-Rock/releases">Releases</a>
-        <a class="btn btn-ghost" href="https://github.com/Sayanthrock-Developer/GitHub-Rock" target="_blank" rel="noopener">Repository</a>
+    <section id="projects" class="section shell projects">
+      <div class="section-heading"><div><div class="section-label">03 — Selected work</div><h2>Projects worth exploring.</h2></div><a class="text-link" href="https://github.com/Sayanthrock-Developer?tab=repositories" target="_blank" rel="noopener">All repositories ↗</a></div>
+      <div class="project-grid">
+        <a class="project-card project-card--featured" href="https://github.com/Sayanthrock-Developer/GitHub-Rock" target="_blank" rel="noopener">
+          <div class="project-card__number">01</div><div class="project-card__icon">◈</div><h3>GitHub Rock</h3><p>A native developer control centre for GitHub — repositories, issues, pull requests, Actions, builds, downloads, and more.</p><div class="project-card__tags"><span>Android</span><span>Kotlin</span><span>Compose</span></div><span class="project-card__arrow">↗</span>
+        </a>
+        <a class="project-card" href="https://github.com/Sayanthrock-Developer" target="_blank" rel="noopener">
+          <div class="project-card__number">02</div><div class="project-card__icon">✦</div><h3>Open-source tools</h3><p>Experimental utilities, Android modules, automation, and developer-focused projects built in public.</p><div class="project-card__tags"><span>Open source</span><span>Tools</span></div><span class="project-card__arrow">↗</span>
+        </a>
+        <a class="project-card" href="https://github.com/Sayanthrock-Developer" target="_blank" rel="noopener">
+          <div class="project-card__number">03</div><div class="project-card__icon">⌁</div><h3>Digital experiences</h3><p>Websites and interfaces that combine clear messaging, strong visual direction, and practical UX.</p><div class="project-card__tags"><span>Web</span><span>Design</span></div><span class="project-card__arrow">↗</span>
+        </a>
       </div>
+    </section>
+
+    <section id="about" class="section shell about">
+      <div class="about__panel">
+        <div><div class="section-label">04 — About</div><h2>Make technology feel a little more human.</h2></div>
+        <div><p>Sayanth Rock is an independent creative technology practice focused on software, design, and open-source projects.</p><p>The goal is not to make more noise. It is to make better things — products that are useful, beautiful, reliable, and worth returning to.</p><a class="text-link" href="https://github.com/Sayanthrock-Developer" target="_blank" rel="noopener">Follow the work on GitHub ↗</a></div>
+      </div>
+    </section>
+
+    <section class="cta shell">
+      <div class="cta__inner"><div><div class="section-label">05 — Start here</div><h2>Something good is being built.</h2><p>Explore the projects, follow the work, or start with GitHub Rock.</p></div><div class="hero__actions"><a class="btn btn--primary" href="https://github.com/Sayanthrock-Developer/GitHub-Rock/releases">Get GitHub Rock <span>→</span></a><a class="btn btn--outline" href="https://github.com/Sayanthrock-Developer" target="_blank" rel="noopener">Explore GitHub <span>↗</span></a></div></div>
     </section>
   </main>
 
-  <footer class="footer shell">
-    <p>© 2026 Sayanth Rock · Apache License 2.0</p>
-    <p><a href="https://github.com/Sayanthrock-Developer/GitHub-Rock">GitHub-Rock</a> · <a href="https://github.com/Sayanthrock-Developer">Sayanthrock-Developer</a></p>
-  </footer>
+  <footer class="footer shell"><div><strong>Sayanth Rock</strong><span>Build with purpose.</span></div><div><a href="https://github.com/Sayanthrock-Developer" target="_blank" rel="noopener">GitHub</a><span>© 2026</span></div></footer>
 </body>
 </html>
